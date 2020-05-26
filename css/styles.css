@@ -1,7 +1,10 @@
+ /* globals  */
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   color: var(--baseColor);
+  background: var(--baseBackground);
+
 }
 :root {
   --lime-green: hsl(163, 72%, 41%);
@@ -24,6 +27,7 @@ body {
   padding: 0 30px;
 }
 
+/* card  */
 .card {
   border-radius: 5px;
   overflow: hidden;
@@ -40,6 +44,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--cardTitle);
+  font-size: .9em;
+  font-weight: bold;
 }
 
 .card-title img {
@@ -62,4 +69,17 @@ body {
   color: var(--cardTitle);
   letter-spacing: 5px;
   font-size: .75em;
+}
+
+.card-today {
+  margin-top: 20px;
+  color: var(--lime-green);
+  font-size: .7em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-today img {
+  margin-right: 5px;
 }
