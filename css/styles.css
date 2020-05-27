@@ -1,4 +1,4 @@
- /* globals  */
+ /* globals */
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -26,10 +26,20 @@ body {
 .wrapper {
   padding: 0 30px;
 }
-
-/* card  */
+.grid {
+  display: grid;
+  grid-row-gap: 25px;
+}
+/* header */
+.header {
+  background: var(--lightGray);
+  padding-bottom: 100px;
+  border-radius: 0 0 20px 20px;
+  padding-top: 2em;
+}
+/* card */
 .card {
-  border-radius: 5px;
+  border-radius: 8px;
   overflow: hidden;
   background: #f0f3fa;
   text-align: center;
