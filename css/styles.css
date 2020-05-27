@@ -37,6 +37,22 @@ body {
   border-radius: 0 0 20px 20px;
   padding-top: 2em;
 }
+.header-total {
+  color: var(--gray);
+  margin: .5em 0;
+  font-weight: 600;
+  border-bottom: 1px solid var(--gray);
+  padding-bottom: 1.5em;
+}
+h1 {
+  margin: 0;
+  font-size: 1.7em;
+}
+/* top card */
+.top-cards {
+  margin-top: -50px;
+  margin-bottom: 3em;
+}
 /* card */
 .card {
   border-radius: 8px;
