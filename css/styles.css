@@ -29,6 +29,17 @@ body {
   display: grid;
   grid-row-gap: 25px;
 }
+.dark-mode {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+.checkbox {
+  display: none;
+}
+.checkbox:checked ~ .switch::before {
+  transform: translateX(0);
+}
 /* header */
 .header {
   background: var(--lightGray);
