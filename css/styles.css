@@ -4,7 +4,6 @@ body {
   font-family: 'Inter', sans-serif;
   color: var(--baseColor);
   background: var(--baseBackground);
-
 }
 :root {
   --lime-green: hsl(163, 72%, 41%);
@@ -183,4 +182,15 @@ h2 {
 }
 .card-small-percentage img {
   margin-right: 5px;
+}
+
+@media screen and (min-width: 480) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25px;
+  }
+  .wrapper {
+    max-width: 1440px;
+    margin: auto;
+  }
 }
