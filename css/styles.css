@@ -184,7 +184,7 @@ h2 {
   margin-right: 5px;
 }
 
-@media screen and (min-width: 480) {
+@media screen and (min-width: 480px) {
   .grid {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 25px;
@@ -194,3 +194,14 @@ h2 {
     margin: auto;
   }
 }
+
+/* @media screen and (min-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25px;
+  }
+  .wrapper {
+    max-width: 1440px;
+    margin: auto;
+  }
+} */
