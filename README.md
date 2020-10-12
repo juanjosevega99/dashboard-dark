@@ -1,5 +1,5 @@
 # Dashboard-Dark
-this is a Dashboard with full js vanilla - dark mode
+This is a Social Media Dashboard with full js vanilla - dark mode
 
 ### Stack
 - HTML
